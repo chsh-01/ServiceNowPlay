@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T13:55:56.632Z",
+  "generatedAt": "2026-10-30T14:05:12.601Z",
   "repo": {
     "connectorId": 117,
     "repoSlug": "chsh-01/ServiceNowPlay",
@@ -13,29 +13,67 @@
   },
   "tree": [
     {
-      "assetId": 7383,
-      "displayId": "FD-6",
-      "name": "TestCases",
+      "assetId": 7351,
+      "displayId": "FD-1",
+      "name": "ServiceNow",
       "kind": "folder",
       "children": [
         {
-          "assetId": 7376,
-          "displayId": "TC-15",
-          "name": "[C46716]_ServiceNow_EditServiceCatalog",
-          "kind": "test-case",
-          "repoPath": "TestCases/TC-15-[C46716]_ServiceNow_EditServiceCatalog.spec.ts"
+          "assetId": 7356,
+          "displayId": "FD-3",
+          "name": "Helpers",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 7363,
+              "displayId": "TS-3",
+              "name": "FilterHelper",
+              "kind": "typescript",
+              "repoPath": "ServiceNow/Helpers/TS-3-FilterHelper.ts"
+            },
+            {
+              "assetId": 7357,
+              "displayId": "TS-1",
+              "name": "filterNavMenuSearch",
+              "kind": "typescript",
+              "repoPath": "ServiceNow/Helpers/TS-1-filterNavMenuSearch.ts"
+            },
+            {
+              "assetId": 7379,
+              "displayId": "TS-7",
+              "name": "HeadingTextHelper",
+              "kind": "typescript",
+              "repoPath": "ServiceNow/Helpers/TS-7-HeadingTextHelper.ts"
+            }
+          ]
         }
       ]
     }
   ],
   "files": [
     {
-      "assetId": 7376,
-      "assetKind": "test-case",
-      "displayId": "TC-15",
-      "name": "[C46716]_ServiceNow_EditServiceCatalog",
-      "repoPath": "TestCases/TC-15-[C46716]_ServiceNow_EditServiceCatalog.spec.ts",
-      "parentAssetId": 7383
+      "assetId": 7357,
+      "assetKind": "typescript",
+      "displayId": "TS-1",
+      "name": "filterNavMenuSearch",
+      "repoPath": "ServiceNow/Helpers/TS-1-filterNavMenuSearch.ts",
+      "parentAssetId": 7356
+    },
+    {
+      "assetId": 7363,
+      "assetKind": "typescript",
+      "displayId": "TS-3",
+      "name": "FilterHelper",
+      "repoPath": "ServiceNow/Helpers/TS-3-FilterHelper.ts",
+      "parentAssetId": 7356
+    },
+    {
+      "assetId": 7379,
+      "assetKind": "typescript",
+      "displayId": "TS-7",
+      "name": "HeadingTextHelper",
+      "repoPath": "ServiceNow/Helpers/TS-7-HeadingTextHelper.ts",
+      "parentAssetId": 7356
     }
   ]
 }

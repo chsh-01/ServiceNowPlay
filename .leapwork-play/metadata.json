@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T14:33:43.896Z",
+  "generatedAt": "2026-10-30T14:46:16.783Z",
   "repo": {
     "connectorId": 117,
     "repoSlug": "chsh-01/ServiceNowPlay",
@@ -60,6 +60,13 @@
               "name": "AddProductToCart",
               "kind": "typescript",
               "repoPath": "ServiceNow/Helpers/TS-8-AddProductToCart.ts"
+            },
+            {
+              "assetId": 7364,
+              "displayId": "TS-4",
+              "name": "commonActionsHelper",
+              "kind": "typescript",
+              "repoPath": "TS-4-commonActionsHelper.ts"
             },
             {
               "assetId": 7363,
@@ -188,6 +195,14 @@
       "name": "test",
       "repoPath": "TestCases/TC-32-test.spec.ts",
       "parentAssetId": 7383
+    },
+    {
+      "assetId": 7364,
+      "assetKind": "typescript",
+      "displayId": "TS-4",
+      "name": "commonActionsHelper",
+      "repoPath": "TS-4-commonActionsHelper.ts",
+      "parentAssetId": 7356
     }
   ]
 }

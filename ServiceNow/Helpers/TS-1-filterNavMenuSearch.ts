@@ -2,6 +2,7 @@ function escapeRegex(text: string): string {
     return text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); 
 } 
 
+//function created
 export async function filterNavMenuSearch(
     page: Page, 
     filterText: string,

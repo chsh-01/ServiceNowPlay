@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-30T13:55:56.632Z",
+  "repo": {
+    "connectorId": 117,
+    "repoSlug": "chsh-01/ServiceNowPlay",
+    "baseBranch": "main"
+  },
+  "team": {
+    "assetId": 7350,
+    "displayId": "TM-1",
+    "name": "ServiceNow"
+  },
+  "tree": [
+    {
+      "assetId": 7383,
+      "displayId": "FD-6",
+      "name": "TestCases",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 7376,
+          "displayId": "TC-15",
+          "name": "[C46716]_ServiceNow_EditServiceCatalog",
+          "kind": "test-case",
+          "repoPath": "TestCases/TC-15-[C46716]_ServiceNow_EditServiceCatalog.spec.ts"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "assetId": 7376,
+      "assetKind": "test-case",
+      "displayId": "TC-15",
+      "name": "[C46716]_ServiceNow_EditServiceCatalog",
+      "repoPath": "TestCases/TC-15-[C46716]_ServiceNow_EditServiceCatalog.spec.ts",
+      "parentAssetId": 7383
+    }
+  ]
+}

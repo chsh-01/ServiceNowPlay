@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T14:05:48.894Z",
+  "generatedAt": "2026-10-30T14:33:32.606Z",
   "repo": {
     "connectorId": 117,
     "repoSlug": "chsh-01/ServiceNowPlay",
@@ -13,17 +13,54 @@
   },
   "tree": [
     {
+      "assetId": 11741,
+      "displayId": "FD-9",
+      "name": "Agent",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 11742,
+          "displayId": "AG-1",
+          "name": "UpdatedByJIH",
+          "kind": "agent",
+          "repoPath": "Agent/AG-1-UpdatedByJIH.agent.json"
+        }
+      ]
+    },
+    {
       "assetId": 7351,
       "displayId": "FD-1",
       "name": "ServiceNow",
       "kind": "folder",
       "children": [
         {
+          "assetId": 7359,
+          "displayId": "FD-4",
+          "name": "Commons",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 7361,
+              "displayId": "TC-5",
+              "name": "AddRequestedItem",
+              "kind": "test-case",
+              "repoPath": "ServiceNow/Commons/TC-5-AddRequestedItem.spec.ts"
+            }
+          ]
+        },
+        {
           "assetId": 7356,
           "displayId": "FD-3",
           "name": "Helpers",
           "kind": "folder",
           "children": [
+            {
+              "assetId": 7380,
+              "displayId": "TS-8",
+              "name": "AddProductToCart",
+              "kind": "typescript",
+              "repoPath": "ServiceNow/Helpers/TS-8-AddProductToCart.ts"
+            },
             {
               "assetId": 7363,
               "displayId": "TS-3",
@@ -48,9 +85,54 @@
           ]
         }
       ]
+    },
+    {
+      "assetId": 7383,
+      "displayId": "FD-6",
+      "name": "TestCases",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 7376,
+          "displayId": "TC-15",
+          "name": "[C46716]_ServiceNow_EditServiceCatalog",
+          "kind": "test-case",
+          "repoPath": "TestCases/TC-15-[C46716]_ServiceNow_EditServiceCatalog.spec.ts"
+        },
+        {
+          "assetId": 13420,
+          "displayId": "TC-32",
+          "name": "test",
+          "kind": "test-case",
+          "repoPath": "TestCases/TC-32-test.spec.ts"
+        },
+        {
+          "assetId": 11744,
+          "displayId": "TC-26",
+          "name": "Untitled",
+          "kind": "test-case",
+          "repoPath": "TestCases/TC-26-Untitled.spec.ts"
+        }
+      ]
     }
   ],
   "files": [
+    {
+      "assetId": 11742,
+      "assetKind": "agent",
+      "displayId": "AG-1",
+      "name": "UpdatedByJIH",
+      "repoPath": "Agent/AG-1-UpdatedByJIH.agent.json",
+      "parentAssetId": 11741
+    },
+    {
+      "assetId": 7361,
+      "assetKind": "test-case",
+      "displayId": "TC-5",
+      "name": "AddRequestedItem",
+      "repoPath": "ServiceNow/Commons/TC-5-AddRequestedItem.spec.ts",
+      "parentAssetId": 7359
+    },
     {
       "assetId": 7357,
       "assetKind": "typescript",
@@ -74,6 +156,38 @@
       "name": "HeadingTextHelper",
       "repoPath": "ServiceNow/Helpers/TS-7-HeadingTextHelper.ts",
       "parentAssetId": 7356
+    },
+    {
+      "assetId": 7380,
+      "assetKind": "typescript",
+      "displayId": "TS-8",
+      "name": "AddProductToCart",
+      "repoPath": "ServiceNow/Helpers/TS-8-AddProductToCart.ts",
+      "parentAssetId": 7356
+    },
+    {
+      "assetId": 7376,
+      "assetKind": "test-case",
+      "displayId": "TC-15",
+      "name": "[C46716]_ServiceNow_EditServiceCatalog",
+      "repoPath": "TestCases/TC-15-[C46716]_ServiceNow_EditServiceCatalog.spec.ts",
+      "parentAssetId": 7383
+    },
+    {
+      "assetId": 11744,
+      "assetKind": "test-case",
+      "displayId": "TC-26",
+      "name": "Untitled",
+      "repoPath": "TestCases/TC-26-Untitled.spec.ts",
+      "parentAssetId": 7383
+    },
+    {
+      "assetId": 13420,
+      "assetKind": "test-case",
+      "displayId": "TC-32",
+      "name": "test",
+      "repoPath": "TestCases/TC-32-test.spec.ts",
+      "parentAssetId": 7383
     }
   ]
 }
